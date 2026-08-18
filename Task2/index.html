@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label>First Name :</label>
+          <input
+            type="text"
+            autofocus
+            name="firstName"
+            placeholder="Enter your First Name"
+          />
+        </div>
+        <div>
+          <label>Last Name :</label>
+          <input
+            type="text"
+            id="userLastName"
+            name="lastName"
+            placeholder="Enter your Last Name"
+          />
+        </div>
+
+        <div>
+          <label>Email :</label>
+          <input
+            type="email"
+            id="userEmail"
+            name="email"
+            placeholder="Enter your Email"
+          />
+        </div>
+        <div>
+          <label>Password :</label>
+          <input
+            type="password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one number, one uppercase and lowercase letter, and at least 8 or more characters"
+            placeholder="Enter your Password"
+          />
+        </div>
+        <div>
+          <label for="">Gender</label>
+          <input type="radio" name="gender" value="M" /> <label>Male</label>
+          <input type="radio" name="gender" value="F" /> <label>Female</label>
+        </div>
+        <div>
+          <label for="">Age</label>
+          <input type="number" name="userAge" min="16" max="60" />
+        </div>
+        <select name="track" id="">
+          <option value="10" disabled selected>Select your track</option>
+          <option value="0">Front-End</option>
+          <option value="1">Back-End</option>
+        </select>
+        <div>
+          <input type="date" name="userDate" />
+        </div>
+        <div>
+          <textarea
+            name="userSuggest"
+            id=""
+            placeholder="Suggestion"
+            cols="100"
+            rows="5"
+          ></textarea>
+        </div>
+        <label for="University">Choose a University from the list:</label>
+        <input
+          list="Universities"
+          id="university-input"
+          name="university"
+          placeholder="Select your University"
+        />
+
+        <datalist id="Universities">
+          <option value="Ain Shams"></option>
+          <option value="Cairo"></option>
+          <option value="Sadat"></option>
+        </datalist>
+        <div>
+          <label for="userFile">Upload your file</label>
+          <input type="file" accept="image/png" name="userFile" />
+        </div>
+        <div>
+          <label for="PhoneNo">Enter your Phone Number</label>
+          <input
+            type="tel"
+            name="userPhone"
+            maxlength="11"
+            pattern="01[0125][0-9]{8}"
+            title="Phone number must start with 010, 011, 012, or 015 and be 11 digits long"
+          />
+        </div>
+
+        <button type="submit">Submit Info</button>
+
+        <button type="reset">Clear Info</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
