@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+.everything {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1100px;
+  height: 500px;
+}
+.left-box {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 20px;
+  background-color: #00acc1;
+}
+.left-box {
+  background-color: #00acc1;
+  color: #ffffff;
+  padding: 40px;
+  place-items: center;
+  text-align: center;
+}
+
+.left-box h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.left-box p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.right-box {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  float: right;
+  padding: 20px;
+}
+.chat-content {
+  padding: 40px;
+  border-radius: 5px;
+}
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 2px;
+  color: #333;
+}
+.right-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.title {
+  color: gray;
+  font-size: 12px;
+}
+.submitbtn {
+  border: none;
+  background-color: #00acc1;
+  color: white;
+  padding: 10px 20px;
+}
+.btnback {
+  display: block;
+  margin: 20px auto;
+  width: 160px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #00acc1;
+  align-items: center;
+  text-align: center;
+}
