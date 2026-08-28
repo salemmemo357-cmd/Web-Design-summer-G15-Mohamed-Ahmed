@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paws</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light py-4 px-4 px-lg-5"
+    >
+      <div class="container-fluid p-0">
+        <a
+          class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark m-0"
+          href="#"
+        >
+          <i class="fa-solid fa-paw fs-4 text-dark"></i>
+          <span>Pawfect Pair</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ms-lg-4" id="mainNav">
+          <ul
+            class="navbar-nav gap-lg-3 align-items-center my-3 my-lg-0 me-auto"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-dark" href="#">Home</a></li>
+                <li><a class="dropdown-item text-dark" href="#">FAQ</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item text-dark" href="#">About Us</a>
+                </li>
+                <li><a class="dropdown-item text-dark" href="#">Careers</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-none d-lg-block">
+            <a
+              href="#contact"
+              class="btn btn-dark rounded-pill px-4 fw-semibold text-white btn-sm py-2"
+            >
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="top-section py-5 px-4 px-lg-5 w-100">
+      <div class="container-fluid p-0">
+        <div class="row align-items-center g-4 g-lg-5 m-0">
+          <div class="col-12 col-lg-6 ps-0 pe-lg-5">
+            <h1 class="display-4 fw-bold text-dark mb-4">
+              Pawsitively Perfect: Where Every Pet's Dream Comes True!
+            </h1>
+            <p class="text-secondary mb-4 pe-lg-4 fs-6">
+              Welcome to Pawfect Pair, where we offer top-notch pet services and
+              products to make your pet's life full of joy. From grooming and
+              boarding to veterinary services, we have it all.
+            </p>
+            <a
+              href="#shop"
+              class="btn btn-dark rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2"
+            >
+              <span>Shop Now</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <div class="col-12 col-lg-6 p-0 text-center text-lg-end">
+            <img
+              src="https://pngimg.com/d/dog_PNG50348.png"
+              alt="Happy Golden Dog"
+              class="img-fluid w-100 object-fit-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="shop-section py-5 px-4 px-lg-5 w-100 bg-white">
+      <div class="container-fluid p-0">
+        <div class="d-flex align-items-center gap-2 mb-4">
+          <i class="fa-solid fa-paw fs-4 text-dark"></i>
+          <h3 class="fw-bold m-0 text-dark">Shop</h3>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4"
+        >
+          <h2 class="fw-bold text-dark m-0">Featured Products</h2>
+
+          <div class="position-relative" style="max-width: 260px; width: 100%">
+            <i
+              class="fa-solid fa-magnifying-glass position-absolute top-50 start-0 translate-middle-y ms-3 text-secondary"
+            ></i>
+            <input
+              type="text"
+              class="form-control rounded-pill bg-light border-0 ps-5 py-2 fs-6"
+              placeholder="Search"
+            />
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2 justify-content-center mb-5">
+          <button
+            class="btn btn-dark rounded-pill px-4 py-2 fw-semibold"
+            style="background-color: #121c2d"
+          >
+            Random
+          </button>
+          <button
+            class="btn btn-light rounded-pill px-4 py-2 fw-semibold text-secondary border-0 bg-transparent"
+          >
+            Cat
+          </button>
+          <button
+            class="btn btn-light rounded-pill px-4 py-2 fw-semibold text-secondary border-0 bg-transparent"
+          >
+            Dogs
+          </button>
+          <button
+            class="btn btn-light rounded-pill px-4 py-2 fw-semibold text-secondary border-0 bg-transparent"
+          >
+            Fish
+          </button>
+          <button
+            class="btn btn-light rounded-pill px-4 py-2 fw-semibold text-secondary border-0 bg-transparent"
+          >
+            Birds
+          </button>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0 rounded-4 overflow-hidden bg-light shadow-sm h-100"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=800&q=80"
+                alt="Cat Food Product"
+                class="card-img-top object-fit-cover w-100"
+                style="height: 420px"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0 rounded-4 overflow-hidden bg-light shadow-sm h-100"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?auto=format&fit=crop&w=800&q=80"
+                alt="Pet Box Product"
+                class="card-img-top object-fit-cover w-100"
+                style="height: 420px"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div
+              class="card border-0 rounded-4 overflow-hidden bg-light shadow-sm h-100"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=800&q=80"
+                alt="Dog Food Product"
+                class="card-img-top object-fit-cover w-100"
+                style="height: 420px"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-end">
+          <a
+            href="#"
+            class="text-decoration-none fw-bold text-dark fs-6 d-inline-flex align-items-center gap-1"
+          >
+            View More &gt;&gt;&gt;
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="team-section py-5 px-4 px-lg-5 w-100 bg-white">
+      <div class="container-fluid p-0">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="fa-solid fa-paw fs-4 text-dark"></i>
+          <h3 class="fw-bold m-0 text-dark">Our Team</h3>
+        </div>
+
+        <hr class="mb-5 text-secondary opacity-25" />
+
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 bg-transparent">
+              <div
+                class="ratio ratio-1x1 mb-3 rounded-3 overflow-hidden bg-light"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+                  alt="Dr. Olivia Rhye"
+                  class="object-fit-cover w-100 h-100"
+                />
+              </div>
+              <h5 class="fw-bold text-dark mb-1">Dr. Olivia Rhye</h5>
+              <p class="text-secondary mb-3 small">Senior Veterinarian</p>
+              <div class="d-flex gap-3 text-secondary">
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 bg-transparent">
+              <div
+                class="ratio ratio-1x1 mb-3 rounded-3 overflow-hidden bg-light"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+                  alt="Phoenix Baker"
+                  class="object-fit-cover w-100 h-100"
+                />
+              </div>
+              <h5 class="fw-bold text-dark mb-1">Phoenix Baker</h5>
+              <p class="text-secondary mb-3 small">Asst. Veterinarian</p>
+              <div class="d-flex gap-3 text-secondary">
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 bg-transparent">
+              <div
+                class="ratio ratio-1x1 mb-3 rounded-3 overflow-hidden bg-light"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80"
+                  alt="Lana Steiner"
+                  class="object-fit-cover w-100 h-100"
+                />
+              </div>
+              <h5 class="fw-bold text-dark mb-1">Lana Steiner</h5>
+              <p class="text-secondary mb-3 small">Resident Veterinarian</p>
+              <div class="d-flex gap-3 text-secondary">
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 bg-transparent">
+              <div
+                class="ratio ratio-1x1 mb-3 rounded-3 overflow-hidden bg-light"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80"
+                  alt="Demi Wilkinson"
+                  class="object-fit-cover w-100 h-100"
+                />
+              </div>
+              <h5 class="fw-bold text-dark mb-1">Demi Wilkinson</h5>
+              <p class="text-secondary mb-3 small">Intern Veterinarian</p>
+              <div class="d-flex gap-3 text-secondary">
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="#" class="text-secondary text-decoration-none"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog-section py-5 px-4 px-lg-5 w-100 bg-white">
+      <div class="container-fluid p-0">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="fa-solid fa-paw fs-4 text-dark"></i>
+          <h3 class="fw-bold m-0 text-dark">Blog</h3>
+        </div>
+
+        <hr class="mb-5 text-secondary opacity-25" />
+
+        <div class="row align-items-center g-5 m-0">
+          <div class="col-12 col-lg-6 ps-0 pe-lg-5">
+            <h2 class="fw-bold text-dark mb-4 fs-1">
+              Milestone: 20,000 Pets Treated
+            </h2>
+
+            <p
+              class="text-secondary mb-4 leading-relaxed"
+              style="font-size: 0.95rem; line-height: 1.7"
+            >
+              Eget quis mi enim, leo lacinia pharetra, semper. Eget in
+              <a href="#" class="text-secondary">volutpat mollis</a> at volutpat
+              lectus velit, sed auctor. Porttitor fames arcu quis fusce augue
+              enim. Quis at habitant diam at. Suscipit
+              <a href="#" class="text-secondary">tristique risus</a>, at donec.
+              In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id
+              est ac volutpat. Eget quis mi enim, leo lacinia pharetra, semper.
+              Eget in <a href="#" class="text-secondary">volutpat mollis</a> at
+              volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce
+              augue enim. Quis at habitant diam at. Suscipit
+              <a href="#" class="text-secondary">tristique risus</a>, at donec.
+              In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id
+              est ac volutpat.
+            </p>
+
+            <h5 class="fw-bold text-dark mb-2">Renewed target</h5>
+            <p
+              class="text-secondary mb-4 leading-relaxed"
+              style="font-size: 0.95rem; line-height: 1.7"
+            >
+              Pharetra morbi libero id aliquam elit massa integer tellus. Quis
+              felis aliquam ullamcorper porttitor. Pulvinar ullamcorper sit
+              dictumst ut eget a, elementum eu. Maecenas est morbi mattis id in
+              ac.
+            </p>
+
+            <a
+              href="#"
+              class="btn btn-dark rounded-3 px-4 py-2 fw-semibold"
+              style="background-color: #121c2d; font-size: 0.9rem"
+            >
+              Read more
+            </a>
+          </div>
+
+          <div class="col-12 col-lg-6 p-0">
+            <div
+              class="position-relative overflow-hidden shadow-sm"
+              style="border-radius: 4px"
+            >
+              <div class="ratio ratio-1x1">
+                <img
+                  src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=80"
+                  alt="Dog with toys"
+                  class="object-fit-cover w-100 h-100"
+                />
+              </div>
+
+              <a
+                href="#"
+                class="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center text-white text-decoration-none rounded-circle border border-4 border-white"
+                style="
+                  width: 90px;
+                  height: 90px;
+                  background: rgba(0, 0, 0, 0.25);
+                  backdrop-filter: blur(2px);
+                "
+              >
+                <i class="fa-solid fa-play fs-2 ps-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="contact-footer-section py-5 px-4 px-lg-5 w-100 text-white"
+      style="background-color: #0c1424"
+    >
+      <div class="container-fluid p-0">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="fa-solid fa-paw fs-4 text-white"></i>
+          <h3 class="fw-bold m-0 text-white">Get in touch</h3>
+        </div>
+
+        <hr class="mb-5 text-white-50 opacity-25" />
+
+        <div class="row g-5 align-items-start mb-5">
+          <div class="col-12 col-lg-6">
+            <div class="bg-white text-dark p-4 p-md-5 rounded-4 shadow">
+              <form>
+                <div class="row g-3 mb-3">
+                  <div class="col-12 col-md-6">
+                    <label class="form-label small fw-semibold text-secondary"
+                      >First name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control rounded-3 py-2"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <label class="form-label small fw-semibold text-secondary"
+                      >Last name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control rounded-3 py-2"
+                      placeholder="Last name"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label small fw-semibold text-secondary"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control rounded-3 py-2"
+                    placeholder="you@company.com"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label small fw-semibold text-secondary"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control rounded-3"
+                    rows="4"
+                    placeholder=""
+                  ></textarea>
+                </div>
+
+                <div class="form-check mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="privacyPolicy"
+                  />
+                  <label
+                    class="form-check-label small text-secondary"
+                    for="privacyPolicy"
+                  >
+                    You agree to our friendly
+                    <a href="#" class="text-secondary">privacy policy</a>.
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-dark w-100 py-2 rounded-3 fw-semibold"
+                  style="background-color: #1a2639"
+                >
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 ps-lg-5 pt-3">
+            <div class="row g-4">
+              <div class="col-12 col-md-6">
+                <i class="fa-regular fa-envelope fs-4 mb-3 text-white"></i>
+                <h5 class="fw-bold text-white mb-2">Email</h5>
+                <p class="text-white-50 small mb-2">
+                  Our friendly team is here to help.
+                </p>
+                <a
+                  href="mailto:hello@pawsnplay.com"
+                  class="text-white text-decoration-none fw-semibold small"
+                  >hello@pawsnplay.com</a
+                >
+              </div>
+
+              <div class="col-12 col-md-6">
+                <i class="fa-regular fa-comment-dots fs-4 mb-3 text-white"></i>
+                <h5 class="fw-bold text-white mb-2">Live chat</h5>
+                <p class="text-white-50 small mb-2">
+                  Our friendly team is here to help.
+                </p>
+                <a
+                  href="#"
+                  class="text-white text-decoration-none fw-semibold small"
+                  >Start new chat</a
+                >
+              </div>
+
+              <div class="col-12 col-md-6">
+                <i class="fa-solid fa-location-dot fs-4 mb-3 text-white"></i>
+                <h5 class="fw-bold text-white mb-2">Office</h5>
+                <p class="text-white-50 small mb-2">
+                  Come say hello at our office HQ.
+                </p>
+                <p class="text-white fw-semibold small mb-0">
+                  123, Yaya Abatan st, Ogba Lagos.
+                </p>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <i class="fa-solid fa-phone fs-4 mb-3 text-white"></i>
+                <h5 class="fw-bold text-white mb-2">Phone</h5>
+                <p class="text-white-50 small mb-2">Mon-Fri from 8am to 5pm.</p>
+                <a
+                  href="tel:+234901234384"
+                  class="text-white text-decoration-none fw-semibold small"
+                  >+234 901234 384</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          class="my-5 text-primary opacity-50"
+          style="border-top: 1px dashed #204b82"
+        />
+
+        <div class="row align-items-center justify-content-between g-3 mb-5">
+          <div class="col-12 col-md-6">
+            <h5 class="fw-bold text-white mb-1">Join our newsletter</h5>
+            <p class="text-white-50 small mb-0">
+              Be the first to receive latest updates on promo, sales and offers
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <form class="d-flex gap-2 justify-content-md-end">
+              <input
+                type="email"
+                class="form-control rounded-3 py-2 bg-light border-0"
+                placeholder="Enter your email"
+                style="max-width: 300px"
+              />
+              <button
+                class="btn btn-light rounded-3 px-4 fw-semibold text-dark"
+                type="submit"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-5 pt-3">
+          <div class="col-12 col-lg-3">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="fa-solid fa-paw fs-4 text-white"></i>
+              <span class="fw-bold fs-5 text-white">Paws n' Play</span>
+            </div>
+            <p class="text-white-50 small pe-lg-4">
+              Where wagging tails and purring hearts reign supreme!
+            </p>
+          </div>
+
+          <div class="col-6 col-md-2 col-lg-2">
+            <h6 class="text-white-50 small fw-bold mb-3">Shop</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2 small">
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Pet Adoption</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Nutrition</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Pet Care</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Pet Food</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 col-lg-2">
+            <h6 class="text-white-50 small fw-bold mb-3">Company</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2 small">
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none">Press</a>
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none">News</a>
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 col-lg-2">
+            <h6 class="text-white-50 small fw-bold mb-3">Services</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2 small">
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Grooming</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Boarding</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Training</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Veminary</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 col-lg-2">
+            <h6 class="text-white-50 small fw-bold mb-3">Social</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2 small">
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >AngelList</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Dribbble</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 col-lg-1">
+            <h6 class="text-white-50 small fw-bold mb-3">Legal</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2 small">
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none">Terms</a>
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Privacy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Cookies</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Licenses</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white-50 text-decoration-none"
+                  >Settings</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="mb-4 text-white-50 opacity-25" />
+
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"
+        >
+          <p class="text-white-50 small mb-0">
+            © 2024 Paws n' Play. All rights reserved.
+          </p>
+
+          <div class="d-flex gap-3 text-white-50 fs-6">
+            <a href="#" class="text-white-50 text-decoration-none"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" class="text-white-50 text-decoration-none"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="text-white-50 text-decoration-none"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="text-white-50 text-decoration-none"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" class="text-white-50 text-decoration-none"
+              ><i class="fa-brands fa-angellist"></i
+            ></a>
+            <a href="#" class="text-white-50 text-decoration-none"
+              ><i class="fa-brands fa-dribbble"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
