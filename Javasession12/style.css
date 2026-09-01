@@ -1,0 +1,22 @@
+form {
+  padding: 20px;
+  border: 1px solid gray;
+  width: 50%;
+}
+#userName {
+  border: none;
+  width: 50%;
+  margin-bottom: 10px;
+}
+#userEmail {
+  border: none;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
