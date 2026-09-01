@@ -10,3 +10,13 @@ myForm.addEventListener("submit", (f) => {
   console.log(users);
   myForm.reset();
 });
+const btn = document.getElementById("btn");
+const img = document.querySelector(".img");
+
+btn.addEventListener("click", () => {
+  if (img.src.includes("mickey.png")) {
+    img.src = "img/spiderman.jpg";
+  } else {
+    img.src = "img/mickey.png";
+  }
+});
